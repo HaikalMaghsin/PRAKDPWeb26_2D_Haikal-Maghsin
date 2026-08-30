@@ -92,6 +92,8 @@ Jobsheet 1 dan Jobsheet 2 telah selesai. Proyek saat ini menggunakan HTML5 dan C
 
 ## Akses Website
 
+Website saat ini dapat diakses melalui link dibawah ini:
+
 - **[Link Website](https://haikalmaghsin.github.io/PRAKDPWeb26_2D_Haikal-Maghsin/)**
 
 ## Pembuat
