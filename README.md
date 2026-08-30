@@ -90,6 +90,10 @@ Penjelasan proses pengerjaan dan screenshot hasil dapat dibaca pada:
 
 Jobsheet 1 dan Jobsheet 2 telah selesai. Proyek saat ini menggunakan HTML5 dan CSS3.
 
+## Akses Website
+
+- **[Link Website](https://haikalmaghsin.github.io/PRAKDPWeb26_2D_Haikal-Maghsin/)**
+
 ## Pembuat
 
 **Haikal Maghsin**  
