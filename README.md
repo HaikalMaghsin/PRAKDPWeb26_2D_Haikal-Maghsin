@@ -1,8 +1,8 @@
 # SIMPUS-Mini
 
-SIMPUS-Mini adalah proyek praktikum sederhana untuk mata kuliah Desain dan Pemrograman Web. Proyek ini dibuat sebagai latihan menyusun halaman web menggunakan HTML5.
+SIMPUS-Mini adalah proyek praktikum sederhana untuk mata kuliah Desain dan Pemrograman Web. Proyek ini dibuat sebagai latihan menyusun halaman web menggunakan HTML5 dan mengatur tampilannya menggunakan CSS3.
 
-Pada tahap Jobsheet 1, proyek masih menggunakan HTML tanpa CSS, JavaScript, dan database. Oleh karena itu, tampilannya masih menggunakan tampilan bawaan browser dan data yang ditampilkan masih berupa data dummy.
+Proyek saat ini sudah sampai pada Jobsheet 2. Halaman sudah menggunakan CSS, tetapi belum menggunakan JavaScript dan database. Data yang ditampilkan masih berupa data dummy.
 
 ## Fitur
 
@@ -15,6 +15,10 @@ Fitur yang sudah dibuat pada tahap ini:
 - Form tambah dan edit anggota.
 - Navigasi antarhalaman.
 - Validasi dasar pada beberapa input form.
+- Tampilan halaman menggunakan satu file CSS.
+- Navigasi menggunakan Flexbox.
+- Kartu ringkasan menggunakan CSS Grid.
+- Warna tombol dibedakan berdasarkan fungsinya.
 
 Tombol dan form sudah dapat digunakan untuk berpindah halaman, tetapi belum dapat menambah, mengubah, atau menghapus data sebenarnya.
 
@@ -31,11 +35,16 @@ Tombol dan form sudah dapat digunakan untuk berpindah halaman, tetapi belum dapa
 │   ├── list.html
 │   ├── tambah.html
 │   └── edit.html
+├── assets/
+│   └── css/
+│       └── style.css
 └── Dokumentasi/
     ├── Laporan/
-    │   └── Jobsheet1.md
+    │   ├── Jobsheet1.md
+    │   └── Jobsheet2.md
     └── img/
-        └── Jobsheet1/
+        ├── Jobsheet1/
+        └── Jobsheet2/
 ```
 
 ## Cara Menjalankan
@@ -74,11 +83,12 @@ Jika menggunakan Visual Studio Code:
 
 Penjelasan proses pengerjaan dan screenshot hasil dapat dibaca pada:
 
-**[Laporan Jobsheet 1](Dokumentasi/Laporan/Jobsheet1.md)**
+- **[Laporan Jobsheet 1](Dokumentasi/Laporan/Jobsheet1.md)**
+- **[Laporan Jobsheet 2](Dokumentasi/Laporan/Jobsheet2.md)**
 
 ## Status Proyek
 
-Jobsheet 1 telah selesai. Pengembangan berikutnya akan melanjutkan tampilan halaman menggunakan CSS.
+Jobsheet 1 dan Jobsheet 2 telah selesai. Proyek saat ini menggunakan HTML5 dan CSS3.
 
 ## Pembuat
 
