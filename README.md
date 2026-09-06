@@ -2,7 +2,10 @@
 
 SIMPUS-Mini adalah proyek praktikum sederhana untuk mata kuliah Desain dan Pemrograman Web. Proyek ini dibuat sebagai latihan menyusun halaman web menggunakan HTML5 dan mengatur tampilannya menggunakan CSS3.
 
-Proyek saat ini sudah sampai pada Jobsheet 2. Halaman sudah menggunakan CSS, tetapi belum menggunakan JavaScript dan database. Data yang ditampilkan masih berupa data dummy.
+Proyek saat ini mencakup Jobsheet 1–4. Kode di folder utama adalah hasil Jobsheet 2. Versi lanjutan tersedia di `Jobsheet3/` (tampilan responsif) dan `Jobsheet4/` (tampilan responsif beserta rancangan UI/UX), hasil penggabungan kode sebelumnya dengan materi Pak Dimas. Proyek belum menggunakan JavaScript dan database; data masih berupa data dummy.
+
+- [Buka Jobsheet 3](Jobsheet3/index.html) · [Penjelasan](Jobsheet3/README.md)
+- [Buka Jobsheet 4](Jobsheet4/index.html) · [Wireframe dan user flow](Jobsheet4/docs/wireframe.md)
 
 ## Fitur
 
@@ -88,7 +91,7 @@ Penjelasan proses pengerjaan dan screenshot hasil dapat dibaca pada:
 
 ## Status Proyek
 
-Jobsheet 1 dan Jobsheet 2 telah selesai. Proyek saat ini menggunakan HTML5 dan CSS3.
+Jobsheet 1–2 tersedia di folder utama. Jobsheet 3–4 tersedia di folder masing-masing dan menggunakan HTML5/CSS3 tanpa framework. Jobsheet 4 menambahkan rancangan fitur lanjutan; Login dan transaksi belum diimplementasikan.
 
 ## Akses Website
 
