@@ -2,6 +2,10 @@
 
 Pengembangan SIMPUS-Mini milik **Haikal Maghsin**, NIM **254107020189**, kelas **TI 2D**, berdasarkan [Jobsheet 4 Pak Dimas](https://github.com/dimas1984/PemogramanWeb2026/tree/2db73f56ff348f4ed0502ea2f8aedd710fb38420/kode-praktikum/jobsheet-04).
 
+## Laporan praktikum
+
+Laporan lengkap untuk Jobsheet 4 dapat dibuka di [Dokumentasi/Laporan/Jobsheet4.md](../Dokumentasi/Laporan/Jobsheet4.md).
+
 ## Hasil penggabungan
 
 Halaman dan CSS merupakan kelanjutan versi gabungan [Jobsheet 3](../Jobsheet3/README.md), dengan penanda footer Jobsheet 4. Data, palet warna, dan halaman edit milik Haikal tetap tersedia.
