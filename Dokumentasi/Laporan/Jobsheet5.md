@@ -13,7 +13,7 @@
 
 ## 1. Tujuan
 
-Tujuan Jobsheet 5 adalah menambahkan interaksi JavaScript pada halaman SIMPUS-Mini. Setelah saya cek repo Pak Dimas, tugas pada jobsheet ini berfokus pada DOM, event, validasi form, filter tabel, hamburger menu dengan JavaScript, dan konfirmasi hapus.
+Tujuan Jobsheet 5 adalah menambahkan interaksi JavaScript pada halaman SIMPUS-Mini. Materi yang diterapkan meliputi DOM, event, validasi form, filter tabel, hamburger menu dengan JavaScript, dan konfirmasi hapus.
 
 ## 2. Langkah Pengerjaan
 
@@ -43,7 +43,7 @@ Saya menambahkan kotak pencarian pada halaman daftar buku dan daftar anggota. Ke
 
 Tombol Hapus sekarang menampilkan `confirm()`. Jika pengguna memilih OK, baris dihapus dari tampilan.
 
-Fitur ini masih bersifat front-end. Data belum benar-benar terhapus dari database karena proyek belum memakai backend.
+Fitur ini masih bersifat front-end. Baris hanya dihapus dari tampilan tabel.
 
 ### 2.4 Validasi Form
 
@@ -53,7 +53,7 @@ Form tambah dan edit diberi validasi client-side. Jika input wajib kosong, tahun
 
 ## 3. Improvisasi
 
-Saya tidak hanya memakai empat halaman dari contoh Pak Dimas, tetapi tetap mempertahankan halaman edit buku dan edit anggota yang sudah dibuat sejak jobsheet awal. Validasi juga saya pasang pada form tambah dan edit agar perilakunya konsisten.
+Saya tetap mempertahankan halaman edit buku dan edit anggota yang sudah dibuat sejak jobsheet awal. Validasi juga saya pasang pada form tambah dan edit agar perilakunya konsisten.
 
 Tema warna dan data contoh milik saya tetap dipakai supaya hasil Jobsheet 5 terasa menyatu dengan Jobsheet 1 sampai 4.
 
@@ -72,9 +72,9 @@ Tema warna dan data contoh milik saya tetap dipakai supaya hasil Jobsheet 5 tera
 
 ## 5. Kendala
 
-Bagian yang perlu diperhatikan adalah fitur hapus belum permanen. Ketika halaman dimuat ulang, data akan kembali seperti semula karena datanya masih ditulis di HTML.
+Kendala pada Jobsheet 5 adalah fitur hapus belum permanen. Penyebabnya karena tombol Hapus hanya menjalankan `row.remove()` pada DOM, sedangkan data asli masih ditulis langsung di dalam HTML.
 
-Selain itu, validasi JavaScript hanya berjalan di browser. Pada aplikasi nyata, validasi tetap perlu dibuat lagi di sisi server.
+Form tambah dan edit juga belum menyimpan data. Kode validasi hanya mencegah input kosong atau nilai tidak sesuai, tetapi belum ada proses untuk menambahkan data baru ke tabel atau file penyimpanan.
 
 ## 6. Kesimpulan
 

@@ -13,7 +13,7 @@
 
 ## 1. Tujuan
 
-Tujuan Jobsheet 6 adalah memisahkan data dari HTML dan memuatnya secara dinamis menggunakan Fetch API. Setelah saya cek repo Pak Dimas, tugas utamanya adalah membuat file JSON, mengambil data dengan `fetch()`, merender tabel lewat JavaScript, menampilkan loading, dan menangani error.
+Tujuan Jobsheet 6 adalah memisahkan data dari HTML dan memuatnya secara dinamis menggunakan Fetch API. Materi yang diterapkan meliputi pembuatan file JSON, pengambilan data dengan `fetch()`, render tabel menggunakan JavaScript, loading indicator, dan error handling.
 
 ## 2. Langkah Pengerjaan
 
@@ -59,31 +59,13 @@ Saya menambahkan teks "Memuat data..." sebelum proses fetch selesai. Jika file J
 
 Tombol Hapus juga disesuaikan memakai event delegation karena tombolnya baru dibuat setelah data JSON selesai dirender.
 
-## 3. Cara Menjalankan
+## 3. Improvisasi
 
-Jobsheet 6 perlu dibuka melalui server lokal. Jika dibuka langsung dari file explorer, `fetch()` ke file JSON bisa diblokir browser.
-
-Contoh menjalankan dari root repo:
-
-```bash
-php -S localhost:8000
-```
-
-Lalu buka:
-
-```text
-http://localhost:8000/Jobsheet6/index.html
-```
-
-Bisa juga memakai Live Server di VS Code.
-
-## 4. Improvisasi
-
-Saya menyesuaikan data JSON dengan data yang sudah dipakai sejak jobsheet awal. Contoh Pak Dimas memakai data anggota lebih sedikit, sedangkan versi saya memakai sepuluh anggota agar konsisten dengan Jobsheet 1 sampai 5.
+Saya menyesuaikan data JSON dengan data yang sudah dipakai sejak jobsheet awal. Versi ini memakai sepuluh buku dan sepuluh anggota agar konsisten dengan Jobsheet 1 sampai 5.
 
 Saya juga tetap mempertahankan halaman edit, validasi form, pencarian tabel, dan tema warna SIMPUS-Mini.
 
-## 5. Hasil Pengujian
+## 4. Hasil Pengujian
 
 | No. | Pengujian | Hasil |
 |---:|---|---|
@@ -96,13 +78,13 @@ Saya juga tetap mempertahankan halaman edit, validasi form, pencarian tabel, dan
 | 7 | Tombol Hapus bekerja pada baris hasil fetch | Berhasil |
 | 8 | Halaman tetap responsif | Berhasil |
 
-## 6. Kendala
+## 5. Kendala
 
-Kendala utama adalah `fetch()` tidak cocok dibuka langsung memakai `file://`. Karena itu Jobsheet 6 perlu dijalankan lewat Live Server atau server lokal.
+Kendala pada Jobsheet 6 adalah data belum tersimpan permanen setelah baris dihapus dari tampilan. Hal ini terjadi karena kode masih mengambil data dari file JSON statis, yaitu `data/buku.json` dan `data/anggota.json`, belum dari database atau API yang bisa menyimpan perubahan.
 
-Data juga belum tersimpan permanen setelah diubah dari tampilan. JSON masih menjadi sumber data sementara sebelum masuk ke backend.
+Selain itu, tombol Edit masih membuka halaman edit biasa dan belum membawa data sesuai baris yang dipilih. Penyebabnya karena `buku.js` dan `anggota.js` baru membuat baris tabel dari JSON, belum mengirim id data melalui query string atau penyimpanan sementara.
 
-## 7. Kesimpulan
+## 6. Kesimpulan
 
 Pada Jobsheet 6 saya berhasil memisahkan data dari HTML ke file JSON dan menampilkannya kembali menggunakan Fetch API. Halaman daftar buku dan daftar anggota sekarang lebih dinamis karena isi tabel dibuat oleh JavaScript.
 
