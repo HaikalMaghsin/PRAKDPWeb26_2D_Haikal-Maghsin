@@ -27,10 +27,11 @@ Kode `proses_tambah.php` tidak lagi memasukkan data ke session. Data buku dan an
 |---:|---|---|
 | 1 | Struktur file PHP diperiksa dengan `php -l` | Berhasil |
 | 2 | Driver `pdo_pgsql` pada PHP | Tersedia |
-| 3 | Skema tabel buku dan anggota | Sudah disiapkan dalam file SQL |
-| 4 | Tambah buku | Menggunakan `INSERT` prepared statement |
-| 5 | Tambah anggota | Menggunakan `INSERT` prepared statement |
-| 6 | Daftar dan ringkasan data | Menggunakan `SELECT` dan `COUNT(*)` |
+| 3 | Koneksi aplikasi ke database `simpus_mini` | Berhasil |
+| 4 | Skema tabel buku dan anggota | Berhasil dijalankan |
+| 5 | Tambah buku | Menggunakan `INSERT` prepared statement |
+| 6 | Tambah anggota | Menggunakan `INSERT` prepared statement |
+| 7 | Beranda serta halaman daftar | Berhasil membaca database |
 
 ## 4. Kendala
 
