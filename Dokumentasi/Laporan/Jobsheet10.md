@@ -46,4 +46,3 @@ Akun baru otomatis mendapat role `petugas`, sehingga belum bisa menghapus anggot
 ## 6. Kesimpulan
 
 Pada Jobsheet 10, SIMPUS-Mini sudah memiliki autentikasi dan pembatasan akses. Password disimpan sebagai hash, halaman pengelolaan dilindungi, dan tugas pembatasan role sudah diterapkan.
-

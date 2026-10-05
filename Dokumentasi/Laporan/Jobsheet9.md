@@ -44,4 +44,3 @@ Filter JavaScript hanya memeriksa baris yang sedang tampil. Untuk mencari seluru
 ## 6. Kesimpulan
 
 Pada Jobsheet 9, proses CRUD buku dan anggota sudah berjalan langsung ke PostgreSQL. Perubahan data tetap tersimpan setelah halaman dimuat ulang.
-
