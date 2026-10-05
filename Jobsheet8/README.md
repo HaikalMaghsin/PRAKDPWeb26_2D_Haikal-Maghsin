@@ -19,7 +19,7 @@ Laporan lengkap dapat dibuka di [Dokumentasi/Laporan/Jobsheet8.md](../Dokumentas
 
 1. Buat database bernama `simpus_mini`.
 2. Jalankan isi file `sql/01_buku_anggota.sql` pada database tersebut.
-3. Sesuaikan kredensial PostgreSQL melalui environment variable atau nilai default di `includes/koneksi.php`.
+3. Sesuaikan kredensial PostgreSQL melalui environment variable atau salin `includes/koneksi.php` menjadi `includes/koneksi.local.php`, lalu isi koneksinya di file lokal tersebut. File lokal diabaikan Git; hapus blok pemanggilan `koneksi.local.php` pada salinan agar tidak memanggil dirinya sendiri.
 4. Jalankan dari root repo dengan `php -S localhost:8000`, lalu buka `http://localhost:8000/Jobsheet8/index.php`.
 
 Data pada Jobsheet 8 tersimpan di database sehingga tetap ada setelah sesi browser berakhir.

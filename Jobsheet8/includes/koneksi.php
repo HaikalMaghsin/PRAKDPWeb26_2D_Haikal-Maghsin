@@ -1,4 +1,10 @@
 <?php
+// Kredensial komputer ini disimpan terpisah dan tidak diunggah ke Git.
+if (is_file(__DIR__ . '/koneksi.local.php')) {
+    require __DIR__ . '/koneksi.local.php';
+    return;
+}
+
 $host = getenv('DB_HOST') ?: 'localhost';
 $port = getenv('DB_PORT') ?: '5432';
 $db   = getenv('DB_NAME') ?: 'simpus_mini';
