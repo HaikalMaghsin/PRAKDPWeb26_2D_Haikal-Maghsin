@@ -2,7 +2,7 @@
 
 SIMPUS-Mini adalah proyek praktikum sederhana untuk mata kuliah Desain dan Pemrograman Web. Proyek ini dibuat bertahap dari HTML, CSS, responsive design, UI/UX, JavaScript DOM, sampai Fetch API dengan JSON lokal.
 
-Proyek saat ini mencakup Jobsheet 1-8. Kode di folder utama adalah hasil Jobsheet 2, sedangkan versi lanjutan tersedia di folder `Jobsheet3/` sampai `Jobsheet8/`. Semua versi tetap memakai data proyek Haikal dan disesuaikan dengan materi Pak Dimas.
+Proyek saat ini mencakup Jobsheet 1-10. Kode di folder utama adalah hasil Jobsheet 2, sedangkan versi lanjutan tersedia di folder `Jobsheet3/` sampai `Jobsheet10/`. Semua versi tetap memakai data proyek Haikal dan disesuaikan dengan materi Pak Dimas.
 
 - [Buka Jobsheet 3](Jobsheet3/index.html) - [Penjelasan](Jobsheet3/README.md)
 - [Buka Jobsheet 4](Jobsheet4/index.html) - [Wireframe dan user flow](Jobsheet4/docs/wireframe.md)
@@ -10,6 +10,8 @@ Proyek saat ini mencakup Jobsheet 1-8. Kode di folder utama adalah hasil Jobshee
 - [Buka Jobsheet 6](Jobsheet6/index.html) - [Fetch API & JSON](Jobsheet6/README.md)
 - [Buka Jobsheet 7](Jobsheet7/index.php) - [PHP Dasar & Form Handling](Jobsheet7/README.md)
 - [Buka Jobsheet 8](Jobsheet8/index.php) - [Koneksi PostgreSQL](Jobsheet8/README.md)
+- [Buka Jobsheet 9](Jobsheet9/index.php) - [CRUD Lengkap](Jobsheet9/README.md)
+- [Buka Jobsheet 10](Jobsheet10/index.php) - [Autentikasi & Manajemen Sesi](Jobsheet10/README.md)
 
 ## Fitur
 
@@ -30,7 +32,7 @@ Fitur yang sudah dibuat pada tahap ini:
 - Form pada Jobsheet 7 diproses dan disimpan sementara dengan PHP session.
 - Data pada Jobsheet 8 disimpan melalui PostgreSQL dan PDO.
 
-Tombol dan form sudah dapat digunakan untuk berpindah halaman dan mencoba interaksi front-end, tetapi belum dapat menambah, mengubah, atau menghapus data secara permanen.
+Jobsheet 9 mendukung tambah, edit, dan hapus data permanen di PostgreSQL. Jobsheet 10 menambahkan login, registrasi, logout, dan pembatasan akses berdasarkan role.
 
 ## Struktur Proyek
 
@@ -46,6 +48,8 @@ Tombol dan form sudah dapat digunakan untuk berpindah halaman dan mencoba intera
 |-- Jobsheet6/
 |-- Jobsheet7/
 |-- Jobsheet8/
+|-- Jobsheet9/
+|-- Jobsheet10/
 `-- Dokumentasi/
     |-- Laporan/
     |   |-- Jobsheet1.md
@@ -55,7 +59,9 @@ Tombol dan form sudah dapat digunakan untuk berpindah halaman dan mencoba intera
     |   |-- Jobsheet5.md
     |   |-- Jobsheet6.md
     |   |-- Jobsheet7.md
-    |   `-- Jobsheet8.md
+    |   |-- Jobsheet8.md
+    |   |-- Jobsheet9.md
+    |   `-- Jobsheet10.md
     `-- img/
 ```
 
@@ -63,7 +69,7 @@ Tombol dan form sudah dapat digunakan untuk berpindah halaman dan mencoba intera
 
 Untuk Jobsheet 1 sampai 5, halaman dapat dibuka langsung dari file `index.html` masing-masing folder atau memakai Live Server.
 
-Untuk Jobsheet 6 sampai 8, jalankan server lokal. Jobsheet 7 membutuhkan PHP, sedangkan Jobsheet 8 membutuhkan PHP dan PostgreSQL.
+Untuk Jobsheet 6 sampai 10, jalankan server lokal. Jobsheet 7 membutuhkan PHP, sedangkan Jobsheet 8 sampai 10 membutuhkan PHP dan PostgreSQL.
 
 Contoh dari root proyek:
 
@@ -91,12 +97,14 @@ Penjelasan proses pengerjaan dan screenshot hasil dapat dibaca pada:
 - **[Laporan Jobsheet 6](Dokumentasi/Laporan/Jobsheet6.md)**
 - **[Laporan Jobsheet 7](Dokumentasi/Laporan/Jobsheet7.md)**
 - **[Laporan Jobsheet 8](Dokumentasi/Laporan/Jobsheet8.md)**
+- **[Laporan Jobsheet 9](Dokumentasi/Laporan/Jobsheet9.md)**
+- **[Laporan Jobsheet 10](Dokumentasi/Laporan/Jobsheet10.md)**
 
 ## Status Proyek
 
-Jobsheet 1-2 tersedia di folder utama. Jobsheet 3-8 tersedia di folder masing-masing dan tetap dibuat tanpa framework. Jobsheet 5 menambahkan interaksi JavaScript, Jobsheet 6 memuat data dari JSON lokal, Jobsheet 7 memproses form dengan PHP, dan Jobsheet 8 menggunakan PostgreSQL.
+Jobsheet 1-2 tersedia di folder utama. Jobsheet 3-10 tersedia di folder masing-masing dan tetap dibuat tanpa framework. Jobsheet 5 menambahkan interaksi JavaScript, Jobsheet 6 memuat data dari JSON lokal, Jobsheet 7 memproses form dengan PHP, dan Jobsheet 8 menggunakan PostgreSQL.
 
-Login dan transaksi peminjaman belum diimplementasikan. Database dasar untuk buku dan anggota tersedia pada Jobsheet 8.
+CRUD lengkap tersedia pada Jobsheet 9. Autentikasi dan aturan hapus anggota khusus admin tersedia pada Jobsheet 10. Transaksi peminjaman belum diimplementasikan.
 
 ## Akses Website
 
